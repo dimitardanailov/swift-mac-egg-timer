@@ -41,6 +41,7 @@
 			children = (
 				A49A07F21F863D71001C2E2B /* EggTimerApp */,
 				A49A07F11F863D71001C2E2B /* Products */,
+				A4EBBEC71F8B59E000D42DF4 /* Others */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +62,6 @@
 				A49A07F71F863D71001C2E2B /* Assets.xcassets */,
 				A49A07F91F863D71001C2E2B /* Main.storyboard */,
 				A49A07FD1F863D71001C2E2B /* EggTimerApp.entitlements */,
-				A49A07FC1F863D71001C2E2B /* Info.plist */,
 			);
 			path = EggTimerApp;
 			sourceTree = "<group>";
@@ -81,6 +81,14 @@
 			);
 			name = Models;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		A4EBBEC71F8B59E000D42DF4 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				A49A07FC1F863D71001C2E2B /* Info.plist */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AUHUD4R32M;
-				INFOPLIST_FILE = EggTimerApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ddanailov.EggTimerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AUHUD4R32M;
-				INFOPLIST_FILE = EggTimerApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ddanailov.EggTimerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
