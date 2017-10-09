@@ -55,15 +55,32 @@
 		A49A07F21F863D71001C2E2B /* EggTimerApp */ = {
 			isa = PBXGroup;
 			children = (
+				A4EBBEC41F8B57DD00D42DF4 /* Models */,
 				A49A07F31F863D71001C2E2B /* AppDelegate.swift */,
-				A49A07F51F863D71001C2E2B /* ViewController.swift */,
-				A4C41EE91F87DFA200EAC1E9 /* PrefsViewController.swift */,
+				A4EBBEC31F8B57D500D42DF4 /* View Controllers */,
 				A49A07F71F863D71001C2E2B /* Assets.xcassets */,
 				A49A07F91F863D71001C2E2B /* Main.storyboard */,
-				A49A07FC1F863D71001C2E2B /* Info.plist */,
 				A49A07FD1F863D71001C2E2B /* EggTimerApp.entitlements */,
+				A49A07FC1F863D71001C2E2B /* Info.plist */,
 			);
 			path = EggTimerApp;
+			sourceTree = "<group>";
+		};
+		A4EBBEC31F8B57D500D42DF4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A49A07F51F863D71001C2E2B /* ViewController.swift */,
+				A4C41EE91F87DFA200EAC1E9 /* PrefsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A4EBBEC41F8B57DD00D42DF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
