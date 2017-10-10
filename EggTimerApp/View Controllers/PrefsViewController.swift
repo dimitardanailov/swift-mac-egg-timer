@@ -14,6 +14,8 @@ class PrefsViewController: NSViewController {
     @IBOutlet weak var customSlider: NSSlider!
     @IBOutlet weak var customTextField: NSTextField!
     
+    var prefs = Preferences()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
